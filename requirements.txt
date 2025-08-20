@@ -1,0 +1,47 @@
+# 千问大模型API工具类依赖包
+
+# OpenAI兼容库 - 千问API使用OpenAI兼容模式
+openai>=1.0.0
+
+# HTTP请求库 - 用于备用API调用
+requests>=2.31.0
+httpx>=0.25.0
+
+# 异步支持 - 用于流式输出和并发请求
+aiohttp>=3.8.0
+aiofiles>=23.0.0
+
+# MongoDB数据库支持 - 用于上下文记忆缓存
+pymongo>=4.6.0
+motor>=3.3.0  # 异步MongoDB驱动
+
+# 基础数据处理
+# base64  # 内置库，用于文件编码
+# json    # 内置库，用于JSON处理
+numpy>=1.24.0
+pandas>=2.0.0
+
+# 图像处理 - 用于图像预处理和格式转换
+Pillow>=10.0.0
+
+# 配置管理
+python-dotenv>=1.0.0
+pydantic>=2.0.0  # 数据验证和设置管理
+
+# 日志记录
+loguru>=0.7.0
+
+# 类型提示
+typing-extensions>=4.8.0
+
+# 时间处理
+python-dateutil>=2.8.0
+
+# JSON处理
+orjson>=3.9.0  # 高性能JSON库
+
+# 缓存支持
+cachetools>=5.3.0
+
+# 官方千问SDK（如果有的话）
+# dashscope>=1.0.0  # 阿里云千问官方SDK

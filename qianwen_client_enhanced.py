@@ -607,9 +607,9 @@ class QianwenChat:
             
             frame_base64 = self.client._encode_image(frame_path)
             multimodal_message.append({
-                "type": "image_url",
-                "image_url": {
-                    "url": f"data:image/jpeg;base64,{frame_base64}"
+                "type": "video_url",
+                "video_url": {
+                    "url": f"data:video/mp4;base64,{frame_base64}"
                 }
             })
         
